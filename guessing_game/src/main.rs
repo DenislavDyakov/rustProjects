@@ -25,4 +25,6 @@ fn main() {
         Ordering::Greater => println!("Your guess is too big!"),
         Ordering::Equal => println!("You win!"),
     }
+
+    println!("Goodbye!")
 }
